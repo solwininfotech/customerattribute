@@ -1,0 +1,22 @@
+{
+    "name": "solwin/customerattribute",
+    "description": "Customer Attributes extension helps the store owner to manage and add new customer attributes. By using Customer attributes extension, store owner can create additional fields on the customer account register page, customer account edit page and admin manage customers. The objective of using this extension is to collect business-related and personal information that the store owner needs from the customer. A store owner can create an unlimited number of additional input fields like text box, text area, Date, Yes/No, Dropdown etc. The store owner can set default value & input validation for attributes. A store owner can add the attribute to the list of column options and list of filter options in the customer grid from admin.",
+    "type": "magento2-module",
+    "version": "1.0.1",
+    "authors": [
+        {
+            "name": "Solwin",
+            "email": "stdabhoya@yahoo.com",
+            "homepage": "https://www.solwininfotech.com/",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Solwin\\CustomerAttribute\\": ""
+        }
+    }
+}
